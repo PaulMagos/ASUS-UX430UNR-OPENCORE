@@ -1,10 +1,10 @@
-# ASUS-UX430UN-OPENCORE
+# ASUS-UX430UNR-OPENCORE
 
 ## Description 
 The name explains everyting, btw this is my opencore setup for MacOS Catalina 10.15.4.
 The Config, Kexts, Drivers and SSDTs are all made by hieplpvip.
 I've used ndk-opencore fork cause my windows partition won't boot with the master fork. 
-Anyway I've only changed some little things 
+Anyway I've only changed some little things. 
 
 ## Details
 The main thing that is really different is the ndk-opencore and the AppleALC Layout-id, mine is 21 the original hieplpvip
