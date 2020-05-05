@@ -1,7 +1,10 @@
 # ASUS-UX430UNR-OPENCORE
+**Simply an opencore EFI for macos**
+## DISCLAIMER 
+This is not an incentive to hackintoshing! It's still not a good thing, buy a Mac if you need MacOS. But if you want to try the apple experience in order to determine if you are ready for buying a Mac... it's "ok".
 
 ## Description 
-The name explains everyting, btw this is my opencore setup for MacOS Catalina 10.15.4.
+The name explains everyting, btw this is my opencore setup for MacOS Catalina 10.15.4 with OpenCore 0.5.7.
 The Config, Kexts, Drivers and SSDTs are all made by hieplpvip.
 I've used ndk-opencore fork cause my windows partition won't boot with the master fork. 
 Anyway I've only changed some little things. 
@@ -12,7 +15,7 @@ layaout-id for this pc is 13, but I've found that with 21 is better cause it can
 I have noticed a really nice thing, for me both 13 and 21 layouts are inject-ing audio at 44.100 Hz and that gives me a crackling sound, so i've managed it with SoundSource by changing it at 48000 Hz, better. I don't know if there's another option for solving this problem, for me is ok.
 
 #### What's working? 
-Everything, except fingerprint and original wifi (waiting for xyzstd), if you want you can change it with a compatible one. I don't like this solution.
+Everything, except als, fingerprint and original wifi (waiting for @zxystd), if you want you can change it with a compatible one. I don't like this solution.
 
 ##### SSDTs
 The SSDTs that I'm using are the same as hieplpvip, and one made by me for injecting USBs so I can turn off ELAN fingerprint sensor (YES, it will not work).
@@ -27,4 +30,15 @@ The SSDTs that I'm using are the same as hieplpvip, and one made by me for injec
 ##### Drivers
 Only these : ApfsDriverLoader, AudioDxe, HFSPlus, OpenRuntime, OpenCanopy(Apple style visual bootloader)
 
+### Conclusion
+If you are familiar with hardware and pc warranty you can change your wifi (and bluetooth) adapter with a compatible one, and in this case you will need to delete NullEthernet kext and change the bluetooth kext with che original provided by hieplpvip (for the moment I don't like the idea of changing my hardware). In order to use everything you will need to create a good SMBIOS, I've used GenSMBIOS. I suggest you to edit the config only with a plist editor like Xcode or ProperTree, do not open this thing with CloverConfigurator it will "break" it.
 
+### Credit
+[hieplpvip -> ASUS-ZENBOOK-HACKINTOSH](https://github.com/hieplpvip/ASUS-ZENBOOK-HACKINTOSH) 
+And all credits by hieplpvip in this [Reference](https://github.com/hieplpvip/ASUS-ZENBOOK-HACKINTOSH/wiki/References).
+
+[zxystd -> IntelBluetoothFirmware](https://github.com/zxystd/IntelBluetoothFirmware)
+
+[al3xtjames -> NoTouchID](https://github.com/al3xtjames/NoTouchID)
+
+[n-d-k -> OpenCore Fork](https://github.com/n-d-k/OpenCorePkg)
