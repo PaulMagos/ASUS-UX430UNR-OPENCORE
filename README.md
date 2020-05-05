@@ -16,21 +16,14 @@ Everything, except fingerprint and original wifi (waiting for xyzstd), if you wa
 
 ##### SSDTs
 The SSDTs that I'm using are the same as hieplpvip, and one made by me for injecting USBs so I can turn off ELAN fingerprint sensor (YES, it will not work).
-##### KEXTS.
-+ *Lilu, WhateverGreen, AsusSMC, VirtualSMC, AppleALC, ACPIPoller, VoodooI2C, VoodooI2CHID, VoodooPS2Controller,
-VoodooTCSSync, SMCProcessor, SMCBatteryManager*
-All for the hardware, pretty sure these are needed in every configuration.
-+ *AirportBrcmFixup* 
-I'm not sure this is working for me cause I'm using the Intel Bluetooth and an ArcherT2U Nano for wifi.
-+ *BT4LEContinuityFixup*
-Same.
-+ *NullEthernet* 
-I'm using a wifi dongle, oh yes iMessage and Facetime "can" work.
-+ *NoTouchID*
-This is only for booting speedup, so the OS can't ask for something like a TouchID.
-+ *IntelBluetoothFirmware and IntelBluetoothInjector*
-The kexts provided by hieplpvip for bluetooth didn't work for me, somethimes the bluetooth stopped working, sometimes did
-not work at all and for make it work i had to reboot in windows and then in MacOS.These solved everything.
+##### KEXTS
+  * *Lilu, WhateverGreen, AsusSMC, VirtualSMC, AppleALC, ACPIPoller, VoodooI2C, VoodooI2CHID, VoodooPS2Controller, VoodooTCSSync, SMCProcessor, SMCBatteryManager* All for the hardware, pretty sure these are needed in every configuration.
+  * *AirportBrcmFixup* I'm not sure this is working for me cause I'm using the Intel Bluetooth and an ArcherT2U Nano for wifi.
+  * _BT4LEContinuityFixup_ Same.
+  * *NullEthernet* I'm using a wifi dongle, oh yes iMessage and Facetime "can" work.
+  * *NoTouchID* This is only for booting speedup, so the OS can't ask for something like a TouchID.
+  * *IntelBluetoothFirmware and IntelBluetoothInjector* The kexts provided by hieplpvip for bluetooth didn't work for me, somethimes the bluetooth stopped working, sometimes did not work at all and for make it work i had to reboot in windows and then in MacOS.These solved everything.
+  
 ##### Drivers
 Only these : ApfsDriverLoader, AudioDxe, HFSPlus, OpenRuntime, OpenCanopy(Apple style visual bootloader)
 
