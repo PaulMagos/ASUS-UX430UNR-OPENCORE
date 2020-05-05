@@ -1,7 +1,7 @@
 # ASUS-UX430UNR-OPENCORE
-**Simply an OpenCore EFI for macos**
+**Simply an OpenCore EFI for MacOS**
 ## DISCLAIMER 
-This is not an incentive to hackintoshing! It's still not a good thing, buy a Mac if you need MacOS. But if you want to try the apple experience in order to determine if you are ready for buying a Mac... it's "ok".
+This is not an incentive to hackintoshing! It's still not a good thing, buy a Mac if you need MacOS. But if you want to try the Apple experience in order to determine if you are ready for buying a Mac... it's "ok".
 
 ## Description 
 The name explains everyting, btw this is my opencore setup for MacOS Catalina 10.15.4 with OpenCore 0.5.7.
