@@ -19,17 +19,17 @@ The SSDTs that I'm using are the same as hieplpvip, and one made by me for injec
 ##### KEXTS
 * Lilu, WhateverGreen, AsusSMC, VirtualSMC, AppleALC, ACPIPoller, VoodooI2C, VoodooI2CHID, VoodooPS2Controller, VoodooTCSSync, SMCProcessor, SMCBatteryManager
 All for the hardware, pretty sure these are needed in every configuration.
-AirportBrcmFixup 
+* AirportBrcmFixup 
 I'm not sure this is working for me cause I'm using the Intel Bluetooth and an ArcherT2U Nano for wifi.
-BT4LEContinuityFixup
+* BT4LEContinuityFixup
 Same
-NullEthernet 
+* NullEthernet 
 I'm using a wifi dongle, oh yes iMessage and Facetime "can" work.
-NoTouchID 
+* NoTouchID 
 This is only for booting speedup, so the OS can't ask for something like a TouchID.
-IntelBluetoothFirmware and IntelBluetoothInjector 
+* IntelBluetoothFirmware and IntelBluetoothInjector 
 The kexts provided by hieplpvip for bluetooth didn't work for me, somethimes the bluetooth stopped working, sometimes did not work at all and for make it work i had to reboot in windows and then in MacOS.These solved everything.
-Drivers
+##### Drivers
 Only these : ApfsDriverLoader, AudioDxe, HFSPlus, OpenRuntime, OpenCanopy(Apple style visual bootloader)
 
 
