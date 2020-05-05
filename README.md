@@ -1,5 +1,5 @@
 # ASUS-UX430UNR-OPENCORE
-**Simply an opencore EFI for macos**
+**Simply an OpenCore EFI for macos**
 ## DISCLAIMER 
 This is not an incentive to hackintoshing! It's still not a good thing, buy a Mac if you need MacOS. But if you want to try the apple experience in order to determine if you are ready for buying a Mac... it's "ok".
 
@@ -42,3 +42,8 @@ And all credits by hieplpvip in this [Reference](https://github.com/hieplpvip/AS
 [al3xtjames -> NoTouchID](https://github.com/al3xtjames/NoTouchID)
 
 [n-d-k -> OpenCore Fork](https://github.com/n-d-k/OpenCorePkg)
+
+### Links
+[corpnewt GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) for a proper configuration.
+
+[corpnewt ProperTree](https://github.com/corpnewt/ProperTree) for config editing, I really suggest to use this. (Python needed)
