@@ -15,7 +15,7 @@ layaout-id for this pc is 13, but I've found that with 21 is better cause it can
 I have noticed a really nice thing, for me both 13 and 21 layouts are inject-ing audio at 44.100 Hz and that gives me a crackling sound, so i've managed it with SoundSource by changing it at 48000 Hz, better. I don't know if there's another option for solving this problem, for me is ok.
 
 #### What's working?
-Everything, except als, fingerprint and original wifi (waiting for @zxystd), if you want you can change it with a compatible one. I don't like this solution.
+Everything, except als, fingerprint and original wifi (waiting for @zxystd) (so no airdrop, handoff), if you want you can change it with a compatible one. I don't like this solution.
 
 ##### SSDTs
 The SSDTs that I'm using are the same as @hieplpvip, and one made by me for injecting USBs so I can turn off ELAN fingerprint sensor (YES, it will not work).
