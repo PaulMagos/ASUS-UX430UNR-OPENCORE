@@ -29,7 +29,7 @@ The SSDTs that I'm using are the same as @hieplpvip, and one made by me for inje
   * **itlwm** INTEL WIFI ON MAC THANKS TO @zxystd, with Heliport interface.
 
 ##### Drivers
-Only these : ApfsDriverLoader, AudioDxe, HFSPlus, OpenRuntime, OpenCanopy(Apple style visual bootloader)
+Only these : --ApfsDriverLoader--, AudioDxe, HFSPlus, OpenRuntime, OpenCanopy(Apple style visual bootloader)
 
 ### Conclusion
 If you are familiar with hardware and pc warranty you can change your wifi (and bluetooth) adapter with a compatible one, and in this case you will need to change the bluetooth kext with the original provided by @hieplpvip (for the moment I don't like the idea of changing my hardware). In order to use everything you will need to create a good SMBIOS, I've used GenSMBIOS. I suggest you to edit the config only with a plist editor like Xcode or ProperTree, do not open this thing with CloverConfigurator it will "break" it.
